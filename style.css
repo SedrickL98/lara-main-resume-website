@@ -1,0 +1,119 @@
+/* General page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #243247;
+    background-color: #f0f5fb;
+    margin: 0;
+}
+
+/* Element selectors */
+h1 {
+    color: #174a80;
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+h2 {
+    color: #2367a5;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #b9d4ef;
+    padding-bottom: 6px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+section {
+    margin-bottom: 24px;
+}
+
+/* Class selectors */
+.intro {
+    background-color: #dceafb;
+    padding: 24px;
+    text-align: center;
+    border-bottom: 4px solid #3678b8;
+}
+
+.profile-photo {
+    width: 180px;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #ffffff;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+.site-nav {
+    background-color: #174a80;
+    padding: 14px;
+    text-align: center;
+}
+
+.content {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 24px auto;
+    padding: 24px;
+    border: 1px solid #d4dfeb;
+}
+
+.resume-section {
+    padding: 12px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dce5ef;
+}
+
+/* ID selector */
+#page-title {
+    color: #123b65;
+    letter-spacing: 1px;
+}
+
+/* Descendant selector */
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+/* Interactive link and keyboard focus styles */
+a:hover {
+    color: #e3a008;
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 3px solid #e3a008;
+    outline-offset: 4px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #dceafb;
+    color: #243247;
+    text-align: center;
+    padding: 16px;
+    border-top: 2px solid #3678b8;
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+    .content {
+        margin: 12px;
+        padding: 14px;
+    }
+
+    .site-nav a {
+        display: inline-block;
+        margin: 6px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
